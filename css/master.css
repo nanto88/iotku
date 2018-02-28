@@ -104,3 +104,93 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+
+/* dashboard halaman */
+
+.navbar {
+   padding: 10px 5px; /* edit dari bootstrap */
+   margin-bottom: 0;
+}
+.side-nav {
+  position: fixed;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  box-shadow: 3px 0 15px 0 rgba(0,0,0,0.5);
+  height: 100vh;
+  padding-top: 50px;
+  padding-right: 30px;
+}
+.side-nav h5 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.side-nav ul {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.side-nav li {
+  padding-bottom: 8px;
+}
+.side-nav li > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  transition: 0.5s;
+}
+.side-nav li > a:hover {
+  color: rgb(224, 57, 74);;
+  padding-left: 8px;
+  font-weight: 500;
+}
+.btn-plus {
+  border: none;
+  text-decoration: none;
+  display: block;
+  background-color: rgb(224, 57, 74);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  box-shadow: 3px 0 15px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+.btn-plus h2 {
+  margin: 0;
+  padding: 0;
+}
+.btn-plus:hover {
+  background-color: white;
+  color: rgb(224, 57, 74);
+  transform:scale(1.05,1.05);
+}
+.dashboard h1, h3 {
+  text-align: center;
+}
+.dashboard h1 {
+  font-weight: bold;
+}
+.dashboard h3 {
+  color: rgba(0, 0, 0, 0.7);
+}
+.card-dashboard {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  transition: 0.5s;
+}
+.card-dashboard:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.4);
+}
+.card-dashboard img {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 30px;
+  width: 50%;
+  height: auto;
+}
